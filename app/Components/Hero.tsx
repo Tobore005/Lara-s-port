@@ -22,14 +22,14 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 z-10" />
       </div>
 
-      <div className="max-w-[1400px] mx-auto w-full relative z-20">
+      <div className=" mx-auto w-full relative z-20">
         {/* 3. Main Heading - Your original sizes */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-7xl md:text-[120px] font-bold leading-[0.85] tracking-tighter text-white uppercase drop-shadow-2xl">
+          <h1 className="text-7xl md:text-[110px] font-bold leading-[0.85] tracking-tighter text-white uppercase drop-shadow-2xl">
             Strategic <br />
             <span className="text-brand-pink">creative.</span>
           </h1>

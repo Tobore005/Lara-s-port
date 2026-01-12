@@ -29,10 +29,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-7xl md:text-[110px] font-bold leading-[0.85] tracking-tighter text-white uppercase drop-shadow-2xl">
-            Strategic <br />
-            <span className="text-brand-pink">creative.</span>
-          </h1>
+          <h1 className="text-[14vw] md:text-[110px] font-bold leading-[0.85] tracking-tighter text-white uppercase drop-shadow-2xl break-words">
+  Strategic <br />
+  <span className="text-brand-pink">creative.</span>
+</h1>
         </motion.div>
 
         {/* 4. Bottom Container */}
